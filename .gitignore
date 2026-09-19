@@ -3,6 +3,99 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+# =========================
+# .NET build outputs
+# =========================
+bin/
+obj/
+artifacts/
+
+# =========================
+# Visual Studio
+# =========================
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# =========================
+# VS Code
+# =========================
+.vscode/*
+!.vscode/extensions.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# =========================
+# JetBrains Rider
+# =========================
+.idea/
+*.sln.iml
+
+# =========================
+# macOS
+# =========================
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# =========================
+# Windows
+# =========================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# =========================
+# Linux
+# =========================
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+secrets.json
+
+# Local settings
+appsettings.Local.json
+appsettings.*.Local.json
+
+# =========================
+# Test results / coverage
+# =========================
+TestResults/
+coverage/
+coverage.*
+*.coverage
+*.coveragexml
+
+# =========================
+# NuGet
+# =========================
+*.nupkg
+*.snupkg
+packages/
+
+# =========================
+# Docker local overrides
+# =========================
+docker-compose.override.yml
+
 # User-specific files
 *.rsuser
 *.suo
