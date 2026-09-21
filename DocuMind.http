@@ -1,6 +1,6 @@
 @DocuMind_HostAddress = http://localhost:5020
 
-GET {{DocuMind_HostAddress}}/weatherforecast/
+GET {{DocuMind_HostAddress}}/health
 Accept: application/json
 
 ###
